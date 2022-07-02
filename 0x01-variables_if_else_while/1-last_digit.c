@@ -40,6 +40,6 @@ printf("%d and is 0\n", LastDigit);
 if (LastDigit < 6 && LastDigit != 0)
 {
 printf("%d and is less than 6 and not 0\n", LastDigit);
-    }
+}
 return (0);
 }
