@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-  int i, j,k,h;
+int i, j,k,h;
 i = 0;
 j = i;
 while (i < 10)
@@ -28,7 +28,7 @@ if ((i == 9) && (j == 8) && (k == 9) && (h == 9))
 ;
 else
 {
-putchar(',');
+putchar(',' );
 putchar(' ');
 }
 h++;
