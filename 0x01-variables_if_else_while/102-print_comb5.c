@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int i,j,k,h;
+int i, j, k, h;
 i = 0;
 j = i;
 while (i < 10)
