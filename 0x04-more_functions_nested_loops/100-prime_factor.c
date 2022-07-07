@@ -8,24 +8,13 @@
 
 int main(void)
 {
-long int n = 10;
-int div = 2;
-long int maxfactor;
+unsigned long int i = 3, n = 612852475143;
 
-while (1)
+for (; i < 12057; i += 2)
 {
-if (n % div != 0)
-div = div + 1; /* div++ */
-else
-{
-maxfactor = n;
-n = n / div;
-if (n == 1)
-{
-printf("%ld", maxfactor);
-break;
+while (n % i == 0 && n != i)
+n /= i;
 }
-}
-}
+printf("%lu\n", n);
 return (0);
 }
