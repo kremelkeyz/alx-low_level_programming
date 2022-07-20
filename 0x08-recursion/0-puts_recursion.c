@@ -4,7 +4,7 @@
  * _puts_recursion -> This is a function to print a string recursivly
  * @s: string
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 if (*s)
 {
